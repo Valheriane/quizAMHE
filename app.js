@@ -4,7 +4,7 @@ const path = require('path');
 const quizRouter = require('./routes/quiz');
 
 const app = express();
-const PORT = process.env.PORT || 3038;
+const PORT = process.env.PORT || 3000;
 
 // D'abord les middlewares
 app.use(express.json());
