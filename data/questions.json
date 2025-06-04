@@ -1,0 +1,186 @@
+[
+  {
+    "id": 1,
+    "question": "Quel traité est attribué à Johannes Liechtenauer ?",
+    "choices": ["Zettel", "Fior di Battaglia", "Talhoffer", "Codex Wallerstein"],
+    "answer": "Zettel",
+    "difficulty": "facile",
+    "category": "traité"
+  },
+  {
+    "id": 2,
+    "question": "Qui est l’auteur du 'Fior di Battaglia' ?",
+    "choices": ["Fiore dei Liberi", "Hans Talhoffer", "Peter von Danzig", "George Silver"],
+    "answer": "Fiore dei Liberi",
+    "difficulty": "facile",
+    "category": "traité"
+  },
+  {
+    "id": 3,
+    "question": "Quel manuscrit est connu pour ses illustrations avec bâton long ?",
+    "choices": ["Codex Wallerstein", "Manuel Royal d'Espagne", "I.33", "MS I.33"],
+    "answer": "Codex Wallerstein",
+    "difficulty": "moyen",
+    "category": "traité"
+  },
+  {
+    "id": 4,
+    "question": "Qu’est-ce qu’une 'Zornhau' ?",
+    "choices": ["Une garde", "Un coup de taille", "Un mouvement défensif", "Un désarmement"],
+    "answer": "Un coup de taille",
+    "difficulty": "moyen",
+    "category": "pratique"
+  },
+  {
+    "id": 5,
+    "question": "Quel est l’arme principale étudiée dans le manuscrit I.33 ?",
+    "choices": ["Épée longue", "Épée bocle", "Rapière", "Dague"],
+    "answer": "Épée bocle",
+    "difficulty": "facile",
+    "category": "traité"
+  },
+  {
+    "id": 6,
+    "question": "Quel auteur anglais a écrit sur l'escrime à la rapière ?",
+    "choices": ["George Silver", "Alfred Hutton", "Ridolfo Capo Ferro", "Giovanni dall’Agocchie"],
+    "answer": "George Silver",
+    "difficulty": "moyen",
+    "category": "histoire"
+  },
+  {
+    "id": 7,
+    "question": "Comment s'appelle la garde haute dans la tradition allemande ?",
+    "choices": ["Vom Tag", "Alber", "Ochs", "Flug"],
+    "answer": "Vom Tag",
+    "difficulty": "difficile",
+    "category": "pratique"
+  },
+  {
+    "id": 8,
+    "question": "Quel est le nom de la position basse typique du style italien ?",
+    "choices": ["Porta di Ferro", "Posta Longa", "Posta Fenestra", "Guardia Alta"],
+    "answer": "Porta di Ferro",
+    "difficulty": "difficile",
+    "category": "pratique"
+  },
+  {
+    "id": 9,
+    "question": "Quel traité a influencé l'escrime allemande postérieure au XVe siècle ?",
+    "choices": ["Peter Falkner", "Codex Dobringer", "Zettel", "Meyer"],
+    "answer": "Meyer",
+    "difficulty": "difficile",
+    "category": "traité"
+  },
+  {
+    "id": 10,
+    "question": "En compétition AMHE, quel est un critère courant de notation ?",
+    "choices": ["Nombre de pas", "Contrôle des frappes", "Vitesse du mouvement", "Nombre de gardes"],
+    "answer": "Contrôle des frappes",
+    "difficulty": "moyen",
+    "category": "compétition"
+  },
+  {
+    "id": 11,
+    "question": "Quel type de masque est utilisé en AMHE ?",
+    "choices": ["Masque de ski", "Masque d'escrime renforcé", "Casque de hockey", "Masque de plongée"],
+    "answer": "Masque d'escrime renforcé",
+    "difficulty": "facile",
+    "category": "matériel"
+  },
+  {
+    "id": 12,
+    "question": "Qu’est-ce qu’un 'Harnischfechten' ?",
+    "choices": ["Combat en armure", "Combat sans arme", "Duel judiciaire", "Danse martiale"],
+    "answer": "Combat en armure",
+    "difficulty": "moyen",
+    "category": "pratique"
+  },
+  {
+    "id": 13,
+    "question": "Quel manuscrit est entièrement en vers poétiques ?",
+    "choices": ["Zettel", "I.33", "Codex Wallerstein", "Fior di Battaglia"],
+    "answer": "Zettel",
+    "difficulty": "difficile",
+    "category": "traité"
+  },
+  {
+    "id": 14,
+    "question": "Quel est le rôle du 'Führer' dans un tournoi AMHE ?",
+    "choices": ["Compétiteur", "Arbitre principal", "Responsable sécurité", "Chronométreur"],
+    "answer": "Arbitre principal",
+    "difficulty": "moyen",
+    "category": "compétition"
+  },
+  {
+    "id": 15,
+    "question": "Quel traité illustre des scènes avec épée à une main et bouclier ?",
+    "choices": ["MS I.33", "Zettel", "Meyer", "Codex Wallerstein"],
+    "answer": "MS I.33",
+    "difficulty": "facile",
+    "category": "traité"
+  },
+  {
+    "id": 16,
+    "question": "Quel est le nom du mouvement visant à bloquer en haut une attaque ?",
+    "choices": ["Hangen", "Abnehmen", "Abschneiden", "Krumphau"],
+    "answer": "Hangen",
+    "difficulty": "expert",
+    "category": "pratique"
+  },
+  {
+    "id": 17,
+    "question": "Quelle ville est associée au maître Hans Talhoffer ?",
+    "choices": ["Nuremberg", "Salzbourg", "Augsbourg", "Londres"],
+    "answer": "Augsbourg",
+    "difficulty": "expert",
+    "category": "histoire"
+  },
+  {
+    "id": 18,
+    "question": "Qu’est-ce qu’un 'Fechtschule' ?",
+    "choices": ["Une école d'escrime", "Un duel", "Un tournoi de démonstration", "Une posture défensive"],
+    "answer": "Un tournoi de démonstration",
+    "difficulty": "moyen",
+    "category": "compétition"
+  },
+  {
+    "id": 19,
+    "question": "Quel matériau est souvent utilisé pour les simulateurs d'épée longue ?",
+    "choices": ["Bois", "Plastique", "Aluminium", "Acier trempé"],
+    "answer": "Plastique",
+    "difficulty": "facile",
+    "category": "matériel"
+  },
+  {
+    "id": 20,
+    "question": "Quel style met l'accent sur l'utilisation du tempo ('tempo') et de la mesure ('misura') ?",
+    "choices": ["Style italien", "Style anglais", "Style allemand", "Style espagnol"],
+    "answer": "Style italien",
+    "difficulty": "difficile",
+    "category": "pratique"
+  },
+  {
+    "id": 21,
+    "question": "Qui a écrit 'Paradoxes of Defence' ?",
+    "choices": ["George Silver", "Hans Talhoffer", "Fiore dei Liberi", "Marozzo"],
+    "answer": "George Silver",
+    "difficulty": "moyen",
+    "category": "traité"
+  },
+  {
+    "id": 22,
+    "question": "Quel type de gants protège les doigts en AMHE ?",
+    "choices": ["Gants de ski", "Gants renforcés à coques", "Mitaines en cuir", "Gants de boxe"],
+    "answer": "Gants renforcés à coques",
+    "difficulty": "facile",
+    "category": "matériel"
+  },
+  {
+    "id": 23,
+    "question": "Quelle arme est typique des combats en duel judiciaire allemands ?",
+    "choices": ["Morgenstern", "Grandes épées", "Épée de duel à une main", "Bouclier et masse"],
+    "answer": "Grandes épées",
+    "difficulty": "expert",
+    "category": "histoire"
+  }
+]

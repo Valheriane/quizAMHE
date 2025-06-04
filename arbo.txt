@@ -1,0 +1,16 @@
+amhe-quiz-app/
+├── data/
+│   └── questions.json
+├── routes/
+│   └── quiz.js
+├── tests/
+│   └── quiz.test.js
+│
+├── app.js
+├── package.json
+│
+├── public/
+│    ├── index.html
+│    ├── style.css
+│    └── script.js
+└── README.md

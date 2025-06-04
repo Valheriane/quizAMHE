@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Quiz AMHE</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="quiz-container">
+    <h1>Quiz sur les AMHE</h1>
+    <div id="question-container">
+      <div id="difficulty" class="difficulty"></div> <!-- ← Ajout -->  
+      <div id="question">Chargement...</div>
+      <div id="choices"></div>
+    </div>
+    <button id="next-btn">Question suivante</button>
+    <div id="result" class="hidden">
+      <h2>Résultat</h2>
+      <div id="score"></div>
+      <div class="gauge">
+        <div id="gauge-bar"></div>
+      </div>
+      <div id="message"></div>
+      <button id="restart-btn" class="next-btn">Rejouer</button>
+
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
