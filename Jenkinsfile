@@ -12,7 +12,6 @@ pipeline {
    stages {
 
         stage('Préparation') {
-            git branch: 'main',
             steps {
                 echo '--- Clonage du dépôt ---'
                 git branch: 'main', url: 'https://github.com/Valheriane/quizAMHE.git'
@@ -21,6 +20,7 @@ pipeline {
                 sh 'npm -v'
             }
         }
+
 
         stage('Installation des dépendances') {
             steps {
