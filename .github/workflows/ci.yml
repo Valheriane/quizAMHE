@@ -4,8 +4,8 @@ name: CI/CD Deploy
  # push:
   #  branches: [ main ]
 
-on:
-  workflow_dispatch:  # Ce déclencheur te permet de le lancer manuellement depuis GitHub
+#on:
+  #workflow_dispatch:  # Ce déclencheur te permet de le lancer manuellement depuis GitHub
 
 jobs:
   build-and-deploy:
