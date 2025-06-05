@@ -1,0 +1,26 @@
+# .github/workflows/mon-workflow.yml
+name: CI
+
+#on:
+  #push:
+    #branches: [ "main" ]
+on:
+  workflow_dispatch:  # Ce déclencheur te permet de le lancer manuellement depuis GitHub
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Cloner le dépôt
+      uses: actions/checkout@v3
+
+    - name: Installer Node
+      uses: actions/setup-node@v3
+      with:
+        node-version: 18
+
+    - name: Installer dépendances
+      run: npm install
+
+    - name: Lancer les tests
+      run: npm test
