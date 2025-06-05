@@ -1,0 +1,138 @@
+Running with gitlab-runner 18.1.0~pre.317.g2147fb44 (2147fb44)
+  on green-2.saas-linux-small-amd64.runners-manager.gitlab.com/default ns46NMmJ, system ID: s_85d7af184313
+Preparing the "docker+machine" executor
+00:21
+Using Docker executor with image node:20 ...
+Using effective pull policy of [always] for container node:20
+Pulling docker image node:20 ...
+Using docker image sha256:225d64be69d5e005fb8677c55d0b7ea46b1d1afe98b28b145aef0d329fd66729 for node:20 with digest node@sha256:7c4cd7c6935554b79c6fffb88e7bde3db0ce25b45d4c634d1fb0f1a6e7f5b782 ...
+Preparing environment
+00:06
+Using effective pull policy of [always] for container sha256:e6423e9f94d5f983ca9c73f619368eda1a1571833398519a334ce92140ce3c30
+Running on runner-ns46nmmj-project-70549996-concurrent-0 via runner-ns46nmmj-s-l-s-amd64-1749166585-d0921571...
+Getting source from Git repository
+00:04
+Fetching changes with git depth set to 20...
+hint: Using 'master' as the name for the initial branch. This default branch name
+hint: is subject to change. To configure the initial branch name to use in all
+hint: of your new repositories, which will suppress this warning, call:
+hint: 
+hint: 	git config --global init.defaultBranch <name>
+hint: 
+hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+hint: 'development'. The just-created branch can be renamed via this command:
+hint: 
+hint: 	git branch -m <name>
+Initialized empty Git repository in /builds/valheriane-group/quiz-amhe-ci/.git/
+Created fresh repository.
+Checking out cb1acc14 as detached HEAD (ref is main)...
+Skipping Git submodules setup
+$ git remote set-url origin "${CI_REPOSITORY_URL}" || echo 'Not a git repository; skipping'
+Executing "step_script" stage of the job script
+00:02
+Using effective pull policy of [always] for container node:20
+Using docker image sha256:225d64be69d5e005fb8677c55d0b7ea46b1d1afe98b28b145aef0d329fd66729 for node:20 with digest node@sha256:7c4cd7c6935554b79c6fffb88e7bde3db0ce25b45d4c634d1fb0f1a6e7f5b782 ...
+$ npm install
+up to date, audited 357 packages in 963ms
+49 packages are looking for funding
+  run `npm fund` for details
+found 0 vulnerabilities
+$ chmod +x ./node_modules/.bin/jest
+$ npm test
+> amhe-quiz-app@1.0.0 test
+> jest
+  console.error
+    Erreur lors de la lecture des questions : Unexpected token 'o', "not-a-json" is not valid JSON
+       9 |     res.json(questions);
+      10 |   } catch (err) {
+    > 11 |     console.error('Erreur lors de la lecture des questions :', err.message);
+         |             ^
+      12 |     res.status(500).json({ error: 'Internal Server Error' });
+      13 |   }
+      14 | });
+      at error (routes/quiz.js:11:13)
+      at Layer.handle [as handle_request] (node_modules/express/lib/router/layer.js:95:5)
+      at next (node_modules/express/lib/router/route.js:149:13)
+      at Route.dispatch (node_modules/express/lib/router/route.js:119:3)
+      at Layer.handle [as handle_request] (node_modules/express/lib/router/layer.js:95:5)
+      at node_modules/express/lib/router/index.js:284:15
+      at Function.process_params (node_modules/express/lib/router/index.js:346:12)
+      at next (node_modules/express/lib/router/index.js:280:10)
+      at Function.handle (node_modules/express/lib/router/index.js:175:3)
+      at router (node_modules/express/lib/router/index.js:47:12)
+      at Layer.handle [as handle_request] (node_modules/express/lib/router/layer.js:95:5)
+      at trim_prefix (node_modules/express/lib/router/index.js:328:13)
+      at node_modules/express/lib/router/index.js:286:9
+      at Function.process_params (node_modules/express/lib/router/index.js:346:12)
+      at next (node_modules/express/lib/router/index.js:280:10)
+      at expressInit (node_modules/express/lib/middleware/init.js:40:5)
+      at Layer.handle [as handle_request] (node_modules/express/lib/router/layer.js:95:5)
+      at trim_prefix (node_modules/express/lib/router/index.js:328:13)
+      at node_modules/express/lib/router/index.js:286:9
+      at Function.process_params (node_modules/express/lib/router/index.js:346:12)
+      at next (node_modules/express/lib/router/index.js:280:10)
+      at query (node_modules/express/lib/middleware/query.js:45:5)
+      at Layer.handle [as handle_request] (node_modules/express/lib/router/layer.js:95:5)
+      at trim_prefix (node_modules/express/lib/router/index.js:328:13)
+      at node_modules/express/lib/router/index.js:286:9
+      at Function.process_params (node_modules/express/lib/router/index.js:346:12)
+      at next (node_modules/express/lib/router/index.js:280:10)
+      at Function.handle (node_modules/express/lib/router/index.js:175:3)
+      at Function.handle (node_modules/express/lib/application.js:181:10)
+      at Server.app (node_modules/express/lib/express.js:39:9)
+  console.error
+    Erreur lors de la lecture des questions : File not found
+       9 |     res.json(questions);
+      10 |   } catch (err) {
+    > 11 |     console.error('Erreur lors de la lecture des questions :', err.message);
+         |             ^
+      12 |     res.status(500).json({ error: 'Internal Server Error' });
+      13 |   }
+      14 | });
+      at error (routes/quiz.js:11:13)
+      at Layer.handle [as handle_request] (node_modules/express/lib/router/layer.js:95:5)
+      at next (node_modules/express/lib/router/route.js:149:13)
+      at Route.dispatch (node_modules/express/lib/router/route.js:119:3)
+      at Layer.handle [as handle_request] (node_modules/express/lib/router/layer.js:95:5)
+      at node_modules/express/lib/router/index.js:284:15
+      at Function.process_params (node_modules/express/lib/router/index.js:346:12)
+      at next (node_modules/express/lib/router/index.js:280:10)
+      at Function.handle (node_modules/express/lib/router/index.js:175:3)
+      at router (node_modules/express/lib/router/index.js:47:12)
+      at Layer.handle [as handle_request] (node_modules/express/lib/router/layer.js:95:5)
+      at trim_prefix (node_modules/express/lib/router/index.js:328:13)
+      at node_modules/express/lib/router/index.js:286:9
+      at Function.process_params (node_modules/express/lib/router/index.js:346:12)
+      at next (node_modules/express/lib/router/index.js:280:10)
+      at expressInit (node_modules/express/lib/middleware/init.js:40:5)
+      at Layer.handle [as handle_request] (node_modules/express/lib/router/layer.js:95:5)
+      at trim_prefix (node_modules/express/lib/router/index.js:328:13)
+      at node_modules/express/lib/router/index.js:286:9
+      at Function.process_params (node_modules/express/lib/router/index.js:346:12)
+      at next (node_modules/express/lib/router/index.js:280:10)
+      at query (node_modules/express/lib/middleware/query.js:45:5)
+      at Layer.handle [as handle_request] (node_modules/express/lib/router/layer.js:95:5)
+      at trim_prefix (node_modules/express/lib/router/index.js:328:13)
+      at node_modules/express/lib/router/index.js:286:9
+      at Function.process_params (node_modules/express/lib/router/index.js:346:12)
+      at next (node_modules/express/lib/router/index.js:280:10)
+      at Function.handle (node_modules/express/lib/router/index.js:175:3)
+      at Function.handle (node_modules/express/lib/application.js:181:10)
+      at Server.app (node_modules/express/lib/express.js:39:9)
+PASS tests/quiz.test.js
+  GET /quiz
+    ✓ should return a list of questions with expected properties (30 ms)
+  GET /quiz with no data
+    ✓ should return an empty array if the file is empty (7 ms)
+  GET /quiz with malformed JSON
+    ✓ should return 500 if JSON file is invalid (37 ms)
+  GET /quiz with missing file
+    ✓ should return 500 if the file does not exist (6 ms)
+Test Suites: 1 passed, 1 total
+Tests:       4 passed, 4 total
+Snapshots:   0 total
+Time:        0.602 s
+Ran all test suites.
+Cleaning up project directory and file based variables
+00:01
+Job succeeded
