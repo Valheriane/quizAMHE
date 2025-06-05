@@ -12,10 +12,10 @@ pipeline {
    stages {
 
         stage('Préparation') {
+            git branch: 'main',
             steps {
                 echo '--- Clonage du dépôt ---'
-                git 'https://github.com/Valheriane/quizAMHE.git'
-
+                git branch: 'main', url: 'https://github.com/Valheriane/quizAMHE.git'
                 echo '--- Version de Node et npm ---'
                 sh 'node -v'
                 sh 'npm -v'
